@@ -12,6 +12,8 @@ article.workshops {
 
     min-height: 192px;
 
+    margin: 48px 0;
+
     div.image {
       flex: 0 0 auto;
       height: 200px;
@@ -99,3 +101,5 @@ article.workshops {
     }
   }
 }
+
+@import "_poller";

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cabin|Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Arimo|Cabin|Josefin+Sans|Poppins");
 .grid {
   display: flex;
   flex-direction: row;
@@ -407,7 +407,8 @@ article.workshops .workshop {
   display: flex;
   flex-direction: column;
   position: relative;
-  min-height: 192px; }
+  min-height: 192px;
+  margin: 48px 0; }
   article.workshops .workshop div.image {
     flex: 0 0 auto;
     height: 200px;
@@ -463,6 +464,38 @@ article.workshops .workshop {
       article.workshops .workshop .info {
         flex: 1;
         padding: 12px; } }
+
+.poller {
+  margin: 64px 0; }
+  .poller .poller-box {
+    border: dashed 2px rgba(255, 255, 255, 0.5);
+    border-radius: 32px;
+    margin: 0 32px;
+    padding: 32px; }
+  .poller h1 {
+    font-size: 48px;
+    color: #ff6666;
+    text-align: center; }
+  .poller h2 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin: 32px 0;
+    border: dashed 2px rgba(255, 0, 0, 0.4);
+    padding: 8px;
+    border-radius: 16px; }
+    .poller h2 a {
+      color: red;
+      text-decoration: none; }
+  .poller h3 {
+    font-size: 38px;
+    color: white;
+    margin: 16px 0;
+    text-align: center; }
+  .poller p {
+    font-size: 24px;
+    text-align: justify;
+    margin: 16px 0; }
 
 section#timetable {
   background: url("../imgs/bg.png");

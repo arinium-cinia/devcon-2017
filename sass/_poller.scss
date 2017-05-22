@@ -1,0 +1,52 @@
+
+.poller {
+
+  margin: 64px 0;
+
+
+  .poller-box {
+    border: dashed 2px rgba(255,255,255,0.5);
+    border-radius: 32px;
+    margin: 0 32px;
+    padding: 32px;
+  }
+
+  h1 {
+    font-size: 48px;
+    color: lighten($highColor, 20) ;
+    text-align: center;
+
+  }
+
+  h2 {
+    font-size: 32px;
+    color: $linkColor;
+    text-align: center;
+    margin: 32px 0;
+
+    border: dashed 2px rgba(255,0,0,0.4);
+    padding: 8px;
+
+    border-radius: 16px;
+
+    a {
+      color: $highColor;
+      text-decoration: none;
+    }
+
+  }
+
+  h3 {
+    font-size: 38px;
+    color: $textColor;
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 24px;
+    text-align: justify;
+    margin: 16px 0;
+  }
+
+}
